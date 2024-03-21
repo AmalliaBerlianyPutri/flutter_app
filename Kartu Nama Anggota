@@ -1,0 +1,264 @@
+import 'dart:ui';
+
+import 'package:flutter/material.dart';
+
+void main(){
+  runApp(
+    const KartuNama()
+  );
+}
+
+class KartuNama extends StatelessWidget {
+  const KartuNama({Key? key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.grey[600],
+        appBar: AppBar(
+          title: Text(
+            'Kartu Nama Anggota',
+            style: TextStyle(color: Colors.white),
+          ),
+          backgroundColor: Colors.grey[850],
+          centerTitle: true,
+        ),
+        body: SafeArea(
+          child: Column(
+              children: [
+                CircleAvatar(
+                  radius: 45,
+                  backgroundImage: AssetImage('images/Sintiya.jpg'),
+                ),
+                Text(
+                  'Sintiya',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  '22091397079 / D4 Manajemen Informatika',
+                  style: TextStyle(
+                      color: Colors.grey[300],
+                      fontSize: 13,
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 2
+                  ),
+                ),
+                Container(
+                  child: Row(),
+                ),
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 3.0, horizontal: 90.0),
+                  child: Padding(
+                    padding: EdgeInsets.all(1.0),
+                    child: Row(
+                      children: const [
+                        Icon(
+                          Icons.phone,
+                          color: Colors.black,
+                        ),
+                        SizedBox(
+                          width: 20.0,
+                        ),
+                        Text(
+                          '081216695902',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 12.0,
+                              color: Colors.black
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 90.0),
+                  child: Padding(
+                    padding: EdgeInsets.all(1.0),
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons.account_circle_rounded,
+                          color: Colors.black,
+                        ),
+                        SizedBox(
+                          width: 20.0,
+                        ),
+                        Text(
+                          'sintiyaaa73@gmail.com',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 12.0,
+                              color: Colors.black
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                CircleAvatar(
+                  radius: 45,
+                  backgroundImage: AssetImage('images/Annisa.jpg'),
+                ),
+                Text(
+                  'Annisa Nabila Rafiah',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  '22091397101 / D4 Manajemen Informatika',
+                  style: TextStyle(
+                      color: Colors.grey[300],
+                      fontSize: 13,
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 2
+                  ),
+                ),
+                Container(
+                  child: Row(),
+                ),
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 3.0, horizontal: 90.0),
+                  child: Padding(
+                    padding: EdgeInsets.all(1.0),
+                    child: Row(
+                      children: const [
+                        Icon(
+                          Icons.phone,
+                          color: Colors.black,
+                        ),
+                        SizedBox(
+                          width: 20.0,
+                        ),
+                        Text(
+                          '089684478143',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 12.0,
+                              color: Colors.black
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 90.0),
+                  child: Padding(
+                    padding: EdgeInsets.all(1.0),
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons.account_circle_rounded,
+                          color: Colors.black,
+                        ),
+                        SizedBox(
+                          width: 20.0,
+                        ),
+                        Text(
+                          'nisanabila901@gmail.com',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 12.0,
+                              color: Colors.black
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                CircleAvatar(
+                  radius: 45,
+                  backgroundImage: AssetImage('images/Amallia.JPG'),
+                ),
+                Text(
+                  'Amallia Berliany Putri',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  '22091397102 / D4 Manajemen Informatika',
+                  style: TextStyle(
+                      color: Colors.grey[300],
+                      fontSize: 13,
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 2
+                  ),
+                ),
+                Container(
+                  child: Row(),
+                ),
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 3.0, horizontal: 90.0),
+                  child: Padding(
+                    padding: EdgeInsets.all(1.0),
+                    child: Row(
+                      children: const [
+                        Icon(
+                          Icons.phone,
+                          color: Colors.black,
+                        ),
+                        SizedBox(
+                          width: 20.0,
+                        ),
+                        Text(
+                          '085755506135',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 12.0,
+                              color: Colors.black
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 90.0),
+                  child: Padding(
+                    padding: EdgeInsets.all(1.0),
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons.account_circle_rounded,
+                          color: Colors.black,
+                        ),
+                        SizedBox(
+                          width: 20.0,
+                        ),
+                        Text(
+                          'putriamallia755@gmail.com',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 12.0,
+                              color: Colors.black
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ]
+          ),
+        ),
+      ),
+    );
+  }
+}
